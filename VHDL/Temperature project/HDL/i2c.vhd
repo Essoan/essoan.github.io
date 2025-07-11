@@ -1,3 +1,6 @@
+-- This code is made by digikey to serve as an example. It has been edited by us 
+-- to suit our needs for this project.
+
 --------------------------------------------------------------------------------
 --
 --   FileName:         i2c_master.vhd
