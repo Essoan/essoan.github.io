@@ -31,6 +31,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+----------------------------------------------------------------------------------
+-- This testbench only have a basic program. The reason for that is because we 
+-- decided to select our waveforms while doing the simulations in Vivado.
+-- The signals in our project are all present in the simulation by running
+-- only this code.
+
+-- This was done to reduce overhead due to time constraints.
+----------------------------------------------------------------------------------
+
 entity i2c_TB is
 --  Port ( );
 end i2c_TB;
