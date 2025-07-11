@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>VHDL - essoan.github.io</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background: #191c21; 
-            color: #ececec; 
-            text-align: center; 
-            padding-top: 60px; 
-        }
-        a { color: #72ffd6; text-decoration: none; font-weight: bold;}
-        a:hover { text-decoration: underline; }
-    </style>
+  <meta charset="UTF-8">
+  <title>HDL Source Files | TemperatureProject | Espen Andresen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: #141e1c; color: #e5efeb; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 40px auto; padding: 2em; background: #202f2c; border-radius: 18px; box-shadow: 0 4px 24px #0006; }
+    h1 { color: #6fe39d; font-size: 2.2em; margin-bottom: 0.1em; }
+    h2 { color: #ff5151; margin-top: 1.5em; margin-bottom: 0.7em; }
+    .tagline { font-size: 1.08em; color: #bbb; margin-bottom: 1.2em; }
+    ul, li { color: #e5efeb; }
+    a { color: #67e6b6; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #ff5151; }
+    .navlinks { margin-bottom: 2em; }
+    .file-list { list-style: none; padding: 0; margin: 0; }
+    .file-list li { margin: 0.8em 0; font-size: 1.09em; }
+    @media (max-width: 600px) { .container { padding: 1em; } }
+  </style>
 </head>
 <body>
-    <h1>VHDL Projects</h1>
-    <p>Explore VHDL code, testbenches, and temperature sensor projects.</p>
-    <nav>
-        <a href="../../index.html">&larr; Back to Home</a>
-    </nav>
-    <hr>
-    <!-- Add links to your VHDL/Temperature projects below -->
-    <ul style="list-style: none; padding: 0;">
-        <li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/UART_tx.vhd" target="_blank">UART Transmitter</a></li>
+  <div class="container">
+    <h1>HDL Source Files</h1>
+    <div class="tagline">VHDL HDL code for the Temperature Project</div>
+
+    <div class="navlinks">
+      <a href="../index.html">&larr; Back to TemperatureProject</a> |
+      <a href="../../index.html">&larr; Back to Main Page</a>
+    </div>
+
+    <h2>View HDL Files on GitHub</h2>
+    <ul class="file-list">
+		<li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/UART_tx.vhd" target="_blank">UART Transmitter</a></li>
         <li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/baud_clock.vhd" target="_blank">Baud clock for UART</a></li>
         <li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/bin_bcd2.vhd" target="_blank">Binary to BCD converter</a></li>
         <li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/clk_gen.vhd" target="_blank">Clock Generator</a></li>
@@ -38,5 +45,6 @@
         <li><a href="https://github.com/Essoan/essoan.github.io/blob/main/VHDL/TemperatureProject/HDL/txt_hex.vhd" target="_blank">Binary values to keyboard code values for UART transmit</a></li>
         <!-- Add more projects as needed -->
     </ul>
+  </div>
 </body>
 </html>
